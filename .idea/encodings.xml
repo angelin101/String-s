@@ -2,8 +2,16 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/strings/Task198.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/strings/Task199.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/strings/Task200.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/strings/Task202.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/strings/Task203.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/strings/Task204.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/strings/Task205.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/strings/Task206.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/strings/Task207.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/strings/ToStringArray.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/strings/ToStringArrayTest.java" charset="UTF-8" />
   </component>
 </project>
