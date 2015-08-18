@@ -1,24 +1,24 @@
 package strings;
 
 /**
- * Created by Ангелин on 18.08.2015.
+ * Created by РђРЅРіРµР»РёРЅ on 18.08.2015.
  */
 public class ToStringArray {
 
-    // метод возврашает массив слов содержашихся в строке.
+    // РјРµС‚РѕРґ РІРѕР·РІСЂР°С€Р°РµС‚ РјР°СЃСЃРёРІ СЃР»РѕРІ СЃРѕРґРµСЂР¶Р°С€РёС…СЃСЏ РІ СЃС‚СЂРѕРєРµ.
     public String[] getArrayOfWords(String str) {
         char ch;
         int lengthArray = 0;
         int index = 0;
 
-// вычисляется размер массива
+// РІС‹С‡РёСЃР»СЏРµС‚СЃСЏ СЂР°Р·РјРµСЂ РјР°СЃСЃРёРІР°
         for (int i = 0; i < str.length(); i++){
             ch = str.charAt(i);
             if (ch == ' ' || ch =='.' || i == str.length()-1) {
                 lengthArray++;
             }
         }
-// заполняется массив словами
+// Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РјР°СЃСЃРёРІ СЃР»РѕРІР°РјРё
         String[] arStr = new String[lengthArray];
         int j = 0;
         for (int i = 0; i < str.length(); i++) {
